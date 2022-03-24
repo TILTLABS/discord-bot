@@ -93,4 +93,4 @@ client.on('messageReactionRemove', (reaction, user) => {
 });
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.DISCORDJS_BOT_TOKEN);
